@@ -30,23 +30,23 @@
                 <div class="contacto__campos">
                     <div class="contacto__campo">
                         <label>Nombre:</label>
-                        <input class="input__text" type="text" placeholder="Tu Nombre">
+                        <input name="nombre" class="input__text" type="text" placeholder="Tu Nombre">
                     </div>
                     <div class="contacto__campo">
                         <label>Teléfono:</label>
-                        <input class="input__text" type="number" placeholder="Tu Nombre">
+                        <input name="telefono" class="input__text" type="number" placeholder="Tu Nombre">
                     </div>
                     <div class="contacto__campo">
                         <label for="">Correo:</label>
-                        <input class="input__text correo" type="mail" placeholder="Tu correo electronico">
+                        <input name="correo" class="input__text correo" type="mail" placeholder="Tu correo electronico">
                     </div>
                     <div class="contacto__campo">
                         <label for="">Mensaje:</label>
-                        <textarea class="input__text" name="" id="" cols="30" rows="10"></textarea>
+                        <textarea name="mensaje" class="input__text" name="" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
                 <div class="derecha">
-                    <input class="boton" type="submit" value="Enviar">
+                    <input id="enviarCorreo" class="boton" type="submit" value="Enviar">
                 </div>
             </fieldset>
         </form>
@@ -63,5 +63,6 @@
             </div>
         </div>
     </footer>
+    <script src="build/js/app.js"></script>
 </body>
 </html>
